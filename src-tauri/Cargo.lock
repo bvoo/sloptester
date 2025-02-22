@@ -1151,20 +1151,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "gamepad-tauri"
-version = "0.1.0"
-dependencies = [
- "rusty-xinput",
- "sdl2",
- "serde",
- "serde_json",
- "tauri",
- "tauri-build",
- "tauri-plugin-opener",
- "winapi",
-]
-
-[[package]]
 name = "gdk"
 version = "0.18.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3526,6 +3512,20 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8f92a496fb766b417c996b9c5e57daf2f7ad3b0bebe1ccfca4856390e3d3bb67"
 dependencies = [
  "autocfg",
+]
+
+[[package]]
+name = "sloptester"
+version = "0.1.0"
+dependencies = [
+ "rusty-xinput",
+ "sdl2",
+ "serde",
+ "serde_json",
+ "tauri",
+ "tauri-build",
+ "tauri-plugin-opener",
+ "winapi",
 ]
 
 [[package]]
